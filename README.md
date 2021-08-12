@@ -14,8 +14,8 @@ with vim
 `Plug 'JuanDAC/betty-ale-vim'`
 
 
-* Include the betty-style into the ale linters<br>
-`let g:ale_linters = {'c': ['bettystyle']`}
+* Include the betty-style and betty-doc into the ale linters<br>
+`let g:ale_linters = {'c': ['bettystyle', 'bettydoc']`}
 
 #### Example
 
@@ -27,7 +27,7 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 
-let g:ale_linters = {'c':['bettystyle', 'gcc']}
+let g:ale_linters = {'c':['bettystyle', 'bettydoc', 'gcc']}
 ```
 
 ### Check it in action
@@ -35,6 +35,7 @@ let g:ale_linters = {'c':['bettystyle', 'gcc']}
 
 ## Author
 [JuanDAC](https://github.com/JuanDAC)
+[Athesto](https://github.com/Athesto)
 
 <!--links-->
 [ALE]: https://github.com/dense-analysis/ale
