@@ -15,7 +15,7 @@ with vim
 
 
 * Include the betty-style and betty-doc into the ale linters<br>
-`let g:ale_linters = {'c': ['bettystyle', 'bettydoc']`}
+`let g:ale_linters = {'c': ['betty-style', 'betty-doc']`}
 
 #### Example
 
@@ -27,7 +27,7 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 
-let g:ale_linters = {'c':['bettystyle', 'bettydoc', 'gcc']}
+let g:ale_linters = {'c':['betty-style', 'betty-doc', 'gcc']}
 ```
 
 ### Check it in action

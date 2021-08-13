@@ -31,7 +31,7 @@ function! ale_linters#c#bettydoc#GetExecutable(buffer) abort
 endfunctio
 
 call ale#linter#Define('c', {
-\   'name': 'bettydoc',
+\   'name': 'betty-doc',
 \   'executable': function('ale_linters#c#bettydoc#GetExecutable'),
 \   'command': function('ale_linters#c#bettydoc#GetCommand'),
 \   'callback': 'ale_linters#c#bettydoc#Handle',
