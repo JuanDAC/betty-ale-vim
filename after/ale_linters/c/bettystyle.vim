@@ -31,7 +31,7 @@ function! ale_linters#c#bettystyle#GetExecutable(buffer) abort
 endfunctio
 
 call ale#linter#Define('c', {
-\   'name': 'bettystyle',
+\   'name': 'betty-style',
 \   'executable': function('ale_linters#c#bettystyle#GetExecutable'),
 \   'command': function('ale_linters#c#bettystyle#GetCommand'),
 \   'callback': 'ale_linters#c#bettystyle#Handle',
