@@ -37,5 +37,8 @@ let g:ale_linters = {'c':['betty-style', 'betty-doc', 'gcc']}
 [JuanDAC](https://github.com/JuanDAC)
 [Athesto](https://github.com/Athesto)
 
+## Support us
+This is single project that we to with love, and If your like it please give us an star ⭐ and share it with your peers
+
 <!--links-->
 [ALE]: https://github.com/dense-analysis/ale
